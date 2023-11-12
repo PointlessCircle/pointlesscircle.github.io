@@ -10,3 +10,16 @@ h1 {
 p {
     font-family: 'Red Hat Display';
 }
+button {
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    padding: 5px;
+    font-family: 'Red Hat Display';
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #1c2425;
+}
