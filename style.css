@@ -10,6 +10,9 @@ h1 {
 p {
     font-family: 'Red Hat Display', sans-serif;
 }
+div {
+    font-family: 'Red Hat Display', sans-serif;
+}
 button {
     border-radius: 5px;
     border: none;
