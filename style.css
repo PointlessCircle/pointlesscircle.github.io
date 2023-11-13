@@ -13,6 +13,9 @@ p {
 div {
     font-family: 'Red Hat Display', sans-serif;
 }
+a {
+    color: deepskyblue;
+}
 button {
     border-radius: 5px;
     border: none;
