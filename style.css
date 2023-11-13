@@ -23,3 +23,10 @@ button {
 button:hover {
     background-color: #1c2425;
 }
+.flexrow {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    flex: 100%;
+    width: fit-content;
+  }
