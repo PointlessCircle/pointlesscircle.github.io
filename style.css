@@ -5,10 +5,10 @@ body {
 h1 {
     text-align: center;
     font-size: xx-large;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
 }
 p {
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
 }
 button {
     border-radius: 5px;
