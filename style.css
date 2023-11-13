@@ -35,4 +35,11 @@ button:hover {
     display: flex;
     flex: 100%;
     width: fit-content;
-  }
+}
+.flexc {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+    flex: 100%;
+    width: fit-content;
+}
