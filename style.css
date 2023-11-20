@@ -5,7 +5,13 @@ body {
 h1 {
     text-align: center;
     font-size: xx-large;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h3 {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
 }
 p {
     font-family: 'Red Hat Display', sans-serif;
