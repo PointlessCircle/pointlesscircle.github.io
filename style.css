@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background: #181818;
     color: white;
 }
 h1 {
@@ -23,17 +23,18 @@ a {
     color: deepskyblue;
 }
 button {
+    background: #363a3b;
     border-radius: 5px;
     border: none;
     color: white;
     cursor: pointer;
     font-size: medium;
     padding: 5px;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
     transition-duration: 0.4s;
 }
 button:hover {
-    background-color: #1c2425;
+    background: #1c2425;
 }
 .flexrow {
     flex-direction: row;
