@@ -21,6 +21,7 @@ div {
 }
 a {
     color: deepskyblue;
+    text-decoration: none;
 }
 button {
     background: #363a3b;
