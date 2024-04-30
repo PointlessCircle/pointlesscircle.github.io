@@ -1,29 +1,23 @@
-function setCookie(cname,cvalue,exdays) {
+function setCookie(cname, cvalue, exdays) {
     const d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     let expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     checkCC();
 }
 
 function getCookie(cname) {
-    let cookie = cname + "=";
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let carr = decodedCookie.split(';');
-    for (let i = 0; i < carr.length; i++) {
-        let c = carr[i];
-        while (c.charAt(0) == '') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(cookie) == 0) {
-            return c.substring(cookie.length, c.length);
-        }
+    const cookie = cname + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    let carar = decodedCookie.split('; ');
+    const result = carar.findIndex((element) => element.startsWith("cC="));
+    if(result == -1) {
+        return result; 
     }
-    return null;
 }
 
 function checkCC() {
-    if (getCookie("cC") === null) {
+    if (getCookie("cC") === -1) {
         document.getElementById("cC").style.display = "flex";
     } else {
         document.getElementById("cC").style.display = "none";
