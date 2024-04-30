@@ -24,7 +24,7 @@ function getCookie(cname) {
 
 function checkCC() {
     if (getCookie("cC") === null) {
-        document.getElementById("cC").style.display = "block";
+        document.getElementById("cC").style.display = "flex";
     } else {
         document.getElementById("cC").style.display = "none";
     }
