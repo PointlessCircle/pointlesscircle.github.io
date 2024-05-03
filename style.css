@@ -2,27 +2,32 @@ body {
     background: #181818;
     color: white;
 }
+
 h1 {
     text-align: center;
     font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
-    
 }
+
 h3 {
     text-align: center;
     font-size: large;
     font-family: 'Montserrat', sans-serif;
 }
+
 p {
     font-family: 'Red Hat Display', sans-serif;
 }
+
 div {
     font-family: 'Red Hat Display', sans-serif;
 }
+
 a {
     color: deepskyblue;
     text-decoration: none;
 }
+
 button {
     background: #363a3b;
     border-radius: 5px;
@@ -34,9 +39,11 @@ button {
     font-family: 'Red Hat Display', sans-serif;
     transition-duration: 0.4s;
 }
+
 button:hover {
     background: #1c2425;
 }
+
 .flexrow {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -44,6 +51,7 @@ button:hover {
     flex: 100%;
     width: fit-content;
 }
+
 .flexc {
     flex-direction: column;
     flex-wrap: nowrap;
